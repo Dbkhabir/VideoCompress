@@ -43,7 +43,7 @@ async def help_message_f(client, message):
             user = await client.get_chat_member(UPDATES_CHANNEL, message.chat.id)
             if user.status == "kicked":
                await message.reply_text(
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/desiviralstore).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/desivralstore).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -74,10 +74,10 @@ async def help_message_f(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Updates Channel', url='https://t.me/desiviralstore')
+                    InlineKeyboardButton('Updates Channel', url='https://t.me/desiiralstore')
                 ],
                 [
-                    InlineKeyboardButton('Support Group', url='https://t.me/desiviralstore')
+                    InlineKeyboardButton('Support Group', url='https://t.me/desviralstore')
                 ],
                 [
                     InlineKeyboardButton('Developer', url='https://t.me/peranabik'), # Bloody Thief, Don't Become a Developer by Stealing other's Codes & Hard Works!
